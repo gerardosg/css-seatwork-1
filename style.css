@@ -4,21 +4,22 @@ body {
 #body {
   margin: 10px;
 }
+header ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: gray;
+}
 }
 header li {
   float: left;
+}
+header li{
   padding: 14px;
   color: white;
   text-decoration: none;
 }
 header li a:hover{
   background-color: green;
-}
-header ul {
-  list-style-type: none;
-  overflow: hidden;
-  list-style-type: none;
-  background-color: gray;
 }
 footer {
   background-color: gray;
